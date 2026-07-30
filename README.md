@@ -4,8 +4,7 @@
 # 👋 Hi, I'm Abdul Ahad Qureshi
 
 ### Computer Systems Engineering Student • Software Developer • AI, Embedded Systems & IoT Enthusiast
-
-<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&pause=1300&center=true&vCenter=true&width=900&color=D4AF37&lines=Computer+Systems+Engineering+Student;Software+Developer;Java+Developer;Embedded+Systems+%26+IoT+Enthusiast;Artificial+Intelligence+Enthusiast;Building+Technology+That+Creates+Real-World+Impact" />
 
 <!-- Social Buttons -->
 
@@ -13,7 +12,7 @@
 
 ---
 
-<!-- 👇 YAHAN SCANNER AYEGA -->
+
 
 <p align="center">
 <img src="./assets/profile-scan.svg" width="380"/>
@@ -21,64 +20,32 @@
 
 ---
 
+<p align="center">
+<img src="./assets/profile-scan.svg" width="380"/>
+</p>
+
+<div align="center">
+
+## ⚡ QUICK OVERVIEW
+
+| 🎓 Education | 💼 Experience |
+|--------------|---------------|
+| Computer Systems Engineering @ Sukkur IBA University | CodeAlpha C++ Intern |
+
+| 🤖 Interests | 🌍 Location |
+|--------------|-------------|
+| AI • Embedded Systems • IoT • Software Development | Sukkur, Pakistan |
+
+</div>
+
+---
+
 # 💫 About Me
 
-I'm **Abdul Ahad Qureshi**, a **Computer Systems Engineering** student at **Sukkur IBA University** who enjoys building practical software and intelligent systems that solve real-world problems.
+I'm **Abdul Ahad Qureshi**, a **Computer Systems Engineering** student at **Sukkur IBA University** passionate about building software that solves real-world problems.
 
-My interests span across **Software Development**, **Artificial Intelligence**, **Embedded Systems**, and the **Internet of Things (IoT)**. I enjoy turning ideas into real applications while continuously improving my engineering, programming, and problem-solving skills.
+I enjoy developing **Java desktop applications**, exploring **Artificial Intelligence**, working with **Embedded Systems**, and creating modern web applications.
 
-Alongside my academic journey, I've worked on AI-powered desktop applications, embedded systems projects, hackathon solutions, and modern web applications. I'm always eager to learn new technologies and contribute to meaningful projects.
-
----
-
-# 🎯 Current Focus
-
-- 🧠 Developing AI-powered Desktop Applications
-- 🌱 Mastering Data Structures & Algorithms (Java)
-- ⚡ Exploring Embedded Systems & IoT
-- 💻 Building React & TypeScript applications
-- 🤝 Contributing to Open Source projects
+My goal is to become a skilled software engineer capable of designing intelligent and impactful solutions through continuous learning and practical development.
 
 ---
-
-# 🛠 Tech Stack
-
-<!-- Tech Stack yahan aayega -->
-
----
-
-# 💼 Experience
-
-<!-- Experience -->
-
----
-
-# 🚀 Featured Projects
-
-<!-- AI Resume Builder -->
-
-<!-- Portfolio -->
-
-<!-- Robot Car -->
-
----
-
-# 📊 GitHub Analytics
-
-<!-- Stats -->
-
----
-
-# 🏆 Certifications
-
----
-
-# 🎓 Education
-
----
-
-# 🌍 Connect With Me
-
----
-
-# ⭐ Thanks for visiting!
