@@ -58,3 +58,91 @@ I enjoy developing **Java desktop applications**, exploring **Artificial Intelli
 My goal is to become a skilled software engineer capable of designing intelligent and impactful solutions through continuous learning and practical development.
 
 ---
+---
+
+# 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+## 🧠 AI Resume Builder & ATS Analyzer
+
+A modern desktop application built with **JavaFX** that helps users generate professional ATS-friendly resumes using **Google Gemini API**.
+
+### ✨ Features
+
+- 🤖 AI Resume Generation
+- 📄 ATS Resume Analysis
+- 📥 PDF Export
+- 🔐 Secure Authentication
+- 💾 Resume Management
+- 🌙 Modern Dark UI
+
+### 🛠 Tech Stack
+
+`Java` `JavaFX` `MySQL`
+`Gemini API`
+`Maven`
+`iText7`
+
+</td>
+
+<td width="50%">
+
+### 📷 Preview
+
+<img src="./assets/resume-builder-preview.png" width="100%"/>
+
+</td>
+
+</tr>
+</table>
+
+<p align="center">
+
+<a href="YOUR_GITHUB_REPO_LINK">
+<img src="https://img.shields.io/badge/View_Source-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
+---
+## 🌐 Interactive Portfolio
+
+A responsive portfolio showcasing my projects, technical skills, and journey as a Computer Systems Engineering student.
+
+### Tech
+
+`React`
+
+`TypeScript`
+
+`Tailwind CSS`
+
+`Three.js`
+
+`Framer Motion`
+
+🌍 Live Demo
+
+https://my-portfolio-iota-eosin-76.vercel.app
+
+---
+## 🤖 Obstacle Avoiding Robot
+
+Arduino based autonomous robot capable of detecting and avoiding obstacles using ultrasonic sensors.
+
+### Tech
+
+`Arduino`
+
+`Embedded C++`
+
+`L298N`
+
+`Ultrasonic Sensor`
+
+`Servo Motor`
+
+---
