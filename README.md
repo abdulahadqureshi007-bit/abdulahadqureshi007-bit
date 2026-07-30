@@ -1,32 +1,84 @@
 <div align="center">
-  <p align="center">
-  <img width="100%" src="./assets/hero-banner.svg" alt="Abdul Ahad AI Engineer Banner"/>
-</p>
+  <img width="100%" src="./assets/hero-banner.svg" alt="Abdul Ahad Banner"/>
 
-# 👋 Hi, I'm Abdul Ahad
+# 👋 Hi, I'm Abdul Ahad Qureshi
 
-### Computer Systems Engineering Student • AI Engineer • Software Developer
+### Computer Systems Engineering Student • Software Developer • AI, Embedded Systems & IoT Enthusiast
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1200&center=true&vCenter=true&width=900&color=D4AF37&lines=AI+Engineer;Java+Developer;Computer+Systems+Engineering+Student;React+%7C+TypeScript+Developer;Embedded+Systems+%26+IoT;Building+Technology+That+Matters" />
+<!-- Typing Animation -->
 
-<br>
-
-<a href="https://my-portfolio-iota-eosin-76.vercel.app">
-<img src="https://img.shields.io/badge/🌐 Portfolio-Visit-black?style=for-the-badge"/>
-</a>
-
-<a href="https://linkedin.com/in/abdulahadq">
-<img src="https://img.shields.io/badge/LinkedIn-Abdul_Ahad-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="mailto:abdulahadqureshi007@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail"/>
-</a>
-
-<a href="https://github.com/abdulahadqureshi007-bit">
-<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github"/>
-</a>
+<!-- Social Buttons -->
 
 </div>
 
 ---
+
+<!-- 👇 YAHAN SCANNER AYEGA -->
+
+<p align="center">
+<img src="./assets/profile-scan.svg" width="380"/>
+</p>
+
+---
+
+# 💫 About Me
+
+I'm **Abdul Ahad Qureshi**, a **Computer Systems Engineering** student at **Sukkur IBA University** who enjoys building practical software and intelligent systems that solve real-world problems.
+
+My interests span across **Software Development**, **Artificial Intelligence**, **Embedded Systems**, and the **Internet of Things (IoT)**. I enjoy turning ideas into real applications while continuously improving my engineering, programming, and problem-solving skills.
+
+Alongside my academic journey, I've worked on AI-powered desktop applications, embedded systems projects, hackathon solutions, and modern web applications. I'm always eager to learn new technologies and contribute to meaningful projects.
+
+---
+
+# 🎯 Current Focus
+
+- 🧠 Developing AI-powered Desktop Applications
+- 🌱 Mastering Data Structures & Algorithms (Java)
+- ⚡ Exploring Embedded Systems & IoT
+- 💻 Building React & TypeScript applications
+- 🤝 Contributing to Open Source projects
+
+---
+
+# 🛠 Tech Stack
+
+<!-- Tech Stack yahan aayega -->
+
+---
+
+# 💼 Experience
+
+<!-- Experience -->
+
+---
+
+# 🚀 Featured Projects
+
+<!-- AI Resume Builder -->
+
+<!-- Portfolio -->
+
+<!-- Robot Car -->
+
+---
+
+# 📊 GitHub Analytics
+
+<!-- Stats -->
+
+---
+
+# 🏆 Certifications
+
+---
+
+# 🎓 Education
+
+---
+
+# 🌍 Connect With Me
+
+---
+
+# ⭐ Thanks for visiting!
