@@ -1,1 +1,53 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#101010"/>
+      <stop offset="1" stop-color="#D4AF37"/>
+    </linearGradient>
 
+    <linearGradient id="scan" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D1FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00D1FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#00D1FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+
+  <rect x="28" y="28" width="1144" height="244" rx="22" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="2"/>
+
+  <text x="70" y="78" fill="#D4AF37" font-family="JetBrains Mono, monospace" font-size="18">
+    AI ENGINEER // SYSTEM ONLINE
+  </text>
+
+  <text x="600" y="145" text-anchor="middle" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">
+    ABDUL AHAD
+  </text>
+
+  <text x="600" y="188" text-anchor="middle" fill="#E8D48A" font-family="JetBrains Mono, monospace" font-size="22">
+    JAVA • AI • REACT • EMBEDDED SYSTEMS
+  </text>
+
+  <text x="600" y="228" text-anchor="middle" fill="#CFCFCF" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+    Computer Systems Engineering Student • Building Intelligent Software
+  </text>
+
+  <circle cx="1095" cy="74" r="7" fill="#00FF88" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="-260" y="0" width="260" height="300" fill="url(#scan)" opacity="0.9">
+    <animate attributeName="x" from="-260" to="1200" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <path d="M0 248 Q140 220 280 240 T560 244 T840 228 T1200 246" stroke="#D4AF37" stroke-opacity="0.25" stroke-width="3" fill="none"/>
+</svg>
