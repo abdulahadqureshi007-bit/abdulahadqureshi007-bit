@@ -1,4 +1,7 @@
 <div align="center">
+  <p align="center">
+  <img width="100%" src="./assets/hero-banner.svg" alt="Abdul Ahad AI Engineer Banner"/>
+</p>
 <p align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:111111,35:1A1A1A,70:2B2B2B,100:D4AF37&text=ABDUL%20AHAD&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=AI%20Engineer%20%7C%20Java%20Developer%20%7C%20Computer%20Systems%20Engineering&descAlignY=60&animation=fadeIn"/>
 </p>
