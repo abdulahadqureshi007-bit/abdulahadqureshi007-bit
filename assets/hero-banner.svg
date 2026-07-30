@@ -1,53 +1,153 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050505"/>
-      <stop offset="0.55" stop-color="#101010"/>
-      <stop offset="1" stop-color="#D4AF37"/>
-    </linearGradient>
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
 
-    <linearGradient id="scan" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00D1FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00D1FF" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#00D1FF" stop-opacity="0"/>
-    </linearGradient>
+<defs>
 
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#050505"/>
+<stop offset="55%" stop-color="#111111"/>
+<stop offset="100%" stop-color="#c49b1d"/>
+</linearGradient>
 
-  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+<linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#00e5ff00"/>
+<stop offset="50%" stop-color="#00e5ff"/>
+<stop offset="100%" stop-color="#00e5ff00"/>
+</linearGradient>
 
-  <rect x="28" y="28" width="1144" height="244" rx="22" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="2"/>
+<filter id="goldGlow">
+<feGaussianBlur stdDeviation="3" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
 
-  <text x="70" y="78" fill="#D4AF37" font-family="JetBrains Mono, monospace" font-size="18">
-    AI ENGINEER // SYSTEM ONLINE
-  </text>
+<filter id="cyanGlow">
+<feGaussianBlur stdDeviation="10"/>
+</filter>
 
-  <text x="600" y="145" text-anchor="middle" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">
-    ABDUL AHAD
-  </text>
+</defs>
 
-  <text x="600" y="188" text-anchor="middle" fill="#E8D48A" font-family="JetBrains Mono, monospace" font-size="22">
-    JAVA • AI • REACT • EMBEDDED SYSTEMS
-  </text>
+<rect width="1200" height="320" rx="25" fill="url(#bg)"/>
 
-  <text x="600" y="228" text-anchor="middle" fill="#CFCFCF" font-family="Segoe UI, Arial, sans-serif" font-size="16">
-    Computer Systems Engineering Student • Building Intelligent Software
-  </text>
+<!-- HUD Border -->
 
-  <circle cx="1095" cy="74" r="7" fill="#00FF88" filter="url(#glow)">
-    <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
-  </circle>
+<rect
+x="28"
+y="28"
+width="1144"
+height="264"
+rx="18"
+fill="none"
+stroke="#d4af37"
+stroke-width="2"
+opacity=".55"/>
 
-  <rect x="-260" y="0" width="260" height="300" fill="url(#scan)" opacity="0.9">
-    <animate attributeName="x" from="-260" to="1200" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
+<!-- Top Left -->
 
-  <path d="M0 248 Q140 220 280 240 T560 244 T840 228 T1200 246" stroke="#D4AF37" stroke-opacity="0.25" stroke-width="3" fill="none"/>
+<text
+x="70"
+y="70"
+font-size="18"
+fill="#d4af37"
+font-family="monospace">
+
+CSE STUDENT // SYSTEM ONLINE
+
+</text>
+
+<!-- Status LED -->
+
+<circle cx="1085" cy="72" r="7" fill="#00ff88">
+<animate attributeName="opacity"
+values="1;.3;1"
+dur="1.3s"
+repeatCount="indefinite"/>
+</circle>
+
+<!-- Name -->
+
+<text
+x="600"
+y="135"
+text-anchor="middle"
+font-size="56"
+font-family="Arial"
+font-weight="700"
+fill="white">
+
+ABDUL AHAD QURESHI
+
+</text>
+
+<!-- Skills -->
+
+<text
+x="600"
+y="185"
+text-anchor="middle"
+font-size="24"
+font-family="monospace"
+fill="#e3bb45">
+
+JAVA • AI • REACT • EMBEDDED SYSTEMS • IoT
+
+</text>
+
+<!-- Subtitle -->
+
+<text
+x="600"
+y="225"
+text-anchor="middle"
+font-size="18"
+fill="white"
+opacity=".92">
+
+Computer Systems Engineering Student • Building Intelligent Software
+
+</text>
+
+<!-- Decorative Wave -->
+
+<path
+d="
+M0 245
+Q250 210 500 245
+T1000 245
+T1200 245
+"
+stroke="#d4af37"
+stroke-width="3"
+opacity=".25"
+fill="none"/>
+
+<!-- Scanner -->
+
+<rect
+x="-250"
+y="0"
+width="180"
+height="320"
+fill="url(#scan)"
+filter="url(#cyanGlow)">
+
+<animate
+attributeName="x"
+values="-250;1300"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- HUD Corners -->
+
+<path d="M28 70 V28 H70" stroke="#d4af37" stroke-width="3" fill="none"/>
+
+<path d="M1172 70 V28 H1130" stroke="#d4af37" stroke-width="3" fill="none"/>
+
+<path d="M28 250 V292 H70" stroke="#d4af37" stroke-width="3" fill="none"/>
+
+<path d="M1172 250 V292 H1130" stroke="#d4af37" stroke-width="3" fill="none"/>
+
 </svg>
