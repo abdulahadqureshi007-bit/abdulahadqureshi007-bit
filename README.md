@@ -1,6 +1,5 @@
 <div align="center">
-  <img width="100%" src="./assets/hero-banner.svg" alt="Abdul Ahad Banner"/>
-
+ <img width="100%" src="./assets/hero-banner.svg?v=2" alt="Abdul Ahad Banner"/>
 # 👋 Hi, I'm Abdul Ahad Qureshi
 
 ### Computer Systems Engineering Student • Software Developer • AI, Embedded Systems & IoT Enthusiast
