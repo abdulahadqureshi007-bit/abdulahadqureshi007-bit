@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="100%" stop-color="#04050a"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67E8F9" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="blueGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="circuit" width="70" height="70" patternUnits="userSpaceOnUse">
+      <path d="M0 35 H24 M46 35 H70 M35 0 V24 M35 46 V70" stroke="#2F7CF6" stroke-width="1" opacity="0.14"/>
+      <circle cx="35" cy="35" r="2.2" fill="#2F7CF6" opacity="0.18"/>
+    </pattern>
+
+    <clipPath id="cardClip">
+      <rect x="2" y="2" width="996" height="216" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="2" y="2" width="996" height="216" fill="url(#bgGrad)"/>
+    <rect x="2" y="2" width="996" height="216" fill="url(#circuit)"/>
+
+    <!-- top-left label -->
+    <text x="44" y="30" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#7C93B8" letter-spacing="1.5">CSE STUDENT // SYSTEM ONLINE</text>
+
+    <!-- top-right status -->
+    <circle cx="878" cy="25" r="4" fill="#34D399">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="888" y="29" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#34D399" letter-spacing="1.5">ONLINE</text>
+
+    <!-- name -->
+    <text x="500" y="108" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="38" font-weight="700" fill="#2F7CF6" letter-spacing="4" filter="url(#blueGlow)">ABDUL AHAD QURESHI</text>
+
+    <!-- subtitle -->
+    <text x="500" y="138" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#E7E7E7" letter-spacing="2">Computer Systems Engineering Student</text>
+
+    <!-- role tags -->
+    <text x="500" y="163" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#67E8F9" letter-spacing="1.5">Software Developer • Java • AI • Embedded Systems • IoT</text>
+
+    <!-- HUD corner brackets -->
+    <g stroke="#2F7CF6" stroke-width="2" fill="none">
+      <path d="M16 34 V16 H34"/>
+      <path d="M984 34 V16 H966"/>
+      <path d="M984 184 V202 H966"/>
+      <path d="M16 184 V202 H34"/>
+    </g>
+
+    <!-- scan divider -->
+    <line x1="55" y1="188" x2="945" y2="188" stroke="#2F7CF6" stroke-width="1" opacity="0.3"/>
+    <rect x="-160" y="184" width="160" height="8" fill="url(#scanGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 1160 0; 0 0" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- outer border on top, so the clipped scan bar never bleeds past the frame -->
+  <rect x="2" y="2" width="996" height="216" rx="14" fill="none" stroke="#2F7CF6" stroke-width="2"/>
+</svg>
